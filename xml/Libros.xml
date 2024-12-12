@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Libreria>
+	<!-- Menú principal de la librería -->
+	<Menu>
+		<Opcion Url="/WebForm1.aspx?Id=0" Texto="Home" Id ="0"></Opcion>
+		<Opcion Url="/WebForm1.aspx?Id=1" Texto="Libros" Id ="1"></Opcion>
+		<Opcion Url="/WebForm1.aspx?Id=2" Texto="Conocenos" Id ="2"></Opcion>
+		<Opcion Url="/WebForm1.aspx?Id=3" Texto="Registrate" Id ="3"></Opcion>
+	</Menu>
+
+	<!-- Categorías de libros -->
+	<Categorias>
+		<!-- Categoría de Trillers -->
+		<Categoria Nombre="Trilles">
+			<Libro>
+				<NombreLib Nombre ="La Sombra del Viento" lib="1">
+					<Autor>Carlos Ruiz Zafón</Autor>
+					<AñoPublicacion>2001</AñoPublicacion>
+					<Precio>$399</Precio>
+					<Imagen>images/img6.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+
+			<Libro>
+				<NombreLib Nombre="El visitante" lib="2">
+					<Autor>Stephen King</Autor>
+					<AñoPublicacion>2018</AñoPublicacion>
+					<Precio>$200</Precio>
+					<Imagen>images/img2.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+
+			<Libro>
+				<NombreLib Nombre="Cementerio de animales" lib="3">
+					<Autor>Stephen King</Autor>
+					<AñoPublicacion>1983</AñoPublicacion>
+					<Precio>$259.90</Precio>
+					<Imagen>images/img3.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+		</Categoria>
+
+
+		<!-- Categoría de Romance -->
+		<Categoria Nombre="Romance">
+			<Libro>
+				<NombreLib Nombre ="La bendición del oficial del cielo" lib="1">
+					<Autor>Mo Xiang Tong Xiu</Autor>
+					<AñoPublicacion>2024</AñoPublicacion>
+					<Precio>599.99</Precio>
+					<Imagen>images/img1.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+
+			<Libro>
+				<NombreLib Nombre ="Antes de diciembre" lib="2">
+					<Autor>
+						Joana Marcús
+					</Autor>
+					<AñoPublicacion>2021</AñoPublicacion>
+					<Precio>$329</Precio>
+					<Imagen>images/img4.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+		</Categoria>
+
+		<!-- Categoría de Acción -->
+		<Categoria Nombre ="Accion">
+			<Libro>
+				<NombreLib Nombre="Harry Potter y la Piedra Filosofal" lib="1">
+					<Autor>J.K. Rowling</Autor>
+					<AñoPublicacion>1997</AñoPublicacion>
+					<Precio>$399.90</Precio>
+					<Imagen>Images/img8.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+
+			<Libro>
+				<NombreLib Nombre="LA TRILOGIA DE LA NIEBLA " lib="2">
+					<Autor>Carlos Ruiz Zafón</Autor>
+					<AñoPublicacion>2007</AñoPublicacion>
+					<Precio>$349.99</Precio>
+					<Imagen>Images/img11.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+		</Categoria>
+
+		<!-- Categoría de Ciencia Ficción -->
+		<Categoria Nombre ="Ficcion">
+			<Libro>
+				<NombreLib Nombre="El Juego del Ángel" lib="1">
+					<Autor>Carlos Ruiz Zafón</Autor>
+					<AñoPublicacion>2008</AñoPublicacion>
+					<Precio>$280.00</Precio>
+					<Imagen>Images/img9.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+
+			<Libro>
+				<NombreLib Nombre="Los jardines de la Luna" lib="2">
+					<Autor>Steven Erikson</Autor>
+					<AñoPublicacion>1999</AñoPublicacion>
+					<Precio>$250</Precio>
+					<Imagen>Images/img12.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+		</Categoria>
+
+		<!-- Categoría de Aventura -->
+		<Categoria Nombre="Aventura">
+			<Libro>
+				<NombreLib Nombre="Donde los árboles cantan" lib="1">
+					<Autor> Laura Gallego García</Autor>
+					<AñoPublicacion>2011</AñoPublicacion>
+					<Precio>$250</Precio>
+					<Imagen>Images/img13.jpg</Imagen>
+				</NombreLib>
+			</Libro>
+		</Categoria>
+	</Categorias>
+
+	<!-- Información de la librería -->
+	<Informacion>
+		<Nombre>Librería ABC</Nombre>
+		<Descripcion>Una librería especializada en ofrecer los mejores libros de todos los géneros, con un enfoque en literatura contemporánea y clásica.</Descripcion>
+		<Direccion>Direccion: C. S 25, Coapa, Alianza Popular Revolucionaria, Coyoacán, 04800 Ciudad de México, CDMX, México</Direccion>
+		<Telefono>+123 456 789</Telefono>
+		<Email>contacto@libreriaabc.com</Email>
+		<Horarios>
+			<Horario> Lunes a Viernes 9:00 AM - 6:00 PM</Horario>
+			<Horario>Sabado 10:00 AM - 4:00 PM</Horario>
+		</Horarios>
+	</Informacion>
+
+</Libreria>
